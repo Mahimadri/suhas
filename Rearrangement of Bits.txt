@@ -1,0 +1,46 @@
+Rearrangement of Bits
+Alex give you a positive number N and wants you rearrange the bits of the number in its binary representation such that all the sets bits are in consecutive order. Your task is to find and return an integer value representing the minimum possible number that can be formed after re-arranging the bits of the number N.
+Note: A set bit means 1 in the binary form of a number.
+Input Specification : 
+Input1 : An integer value N.
+Output Specification : 
+Output : An integer value representing the lowest possible number amongst all possible combinations.
+Example 1 : 
+Input1 : 10
+Output : 3
+Explanation : 
+Here, the given number is 10, whose binary representation is 1010. So we can rearrange the bits to make all these bits consecutive as 0011, which is the lowest possible number amongst all possible combinations. Therefore, 3  is returned as the output.
+Example 2 : 
+Input1 : 2
+Output : 1
+
+
+Magical Number
+You are given a program to find the count of magical numbers from 1 to N. A magical number is defined by the following criteria.
+Convert each number in the ranger 1 to N(inclusive) to its binary representation.
+Replace ‘0’ with ‘1’ and ‘1’ with ‘2’ in the given string.
+Calculate the sum of the digits in the modified binary string. If the resultant number is odd, then it is considered a magical number.
+Your task is to find and return an integer value representing the count of the magical numbers present within the given range.
+Input Specification : 
+Input1 :  An integer value N representing the range of numbers.
+Output Specification : 
+Return an integer value representing the count of magical numbers present within the range.
+Example 1:
+Input1 : 2
+Input2 : 1
+Explanation : 
+Here, the given number is 2. We can find the magic numbers in the following manner.
+1 : 1 after replacing 1 with 2 the sum becomes 2, which is even.
+2 : 10 after replacing 1 with 2 the sum becomes 3, which is odd.
+Since there is 1 odd sum present, 1 is returned as the output.
+Example2 : 
+Input1 : 5
+Output : 2
+Explanation : 
+Here the given number is 5. We can find the magic numbers in the following manner.
+1 : 1 after replacing 1 with 2 the sum becomes 2, which is even.
+2 : 10 after replacing 0 with 1 and 1 with 2 the sum becomes 3 which is odd.
+3 : 11 after replacing 1 with 2 the sum becomes 4, which is even.
+4 : 100 after replacing 0 with 1 and 1 with 2 the sum becomes 4 which is even.
+5 : 101 after replacing 0 with 1 and 1 with 2 the sum becomes 5 which is odd.
+Since there are 2 odd sums present 2 is returned as the output.
